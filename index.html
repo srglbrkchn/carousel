@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <section aria-label="Dark Photos">
-        <div class="carousel">
-            <button class="carousel-btn prev">&#10578;</button>
-            <button class="carousel-btn next">&#10579;</button>
-        <ul>
+        <div class="carousel" data-carousel>
+            <button class="carousel-btn prev" data-carousel-btn="prev">&#10578;</button>
+            <button class="carousel-btn next" data-carousel-btn="next">&#10579;</button>
+        <ul data-slides>
             <li class="slide" data-active>
                 <img src="/images/elephant.jpg" alt="Neon Elephant">
             </li>
